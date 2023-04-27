@@ -12,16 +12,16 @@ export default function WeatherSearch() {
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
-      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      // icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description: response.data.weather[0].description,
     });
   }
 
   function getSubmit(event) {
     event.preventDefault();
-    let apiKey = "094780c710fa4efd669f0df8c3991927";
-    let apiUrl = ` https://api.openweathermap.org/data/2.5/wetger?q=${city}appid=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(showWeather);
+    // let apiKey = "094780c710fa4efd669f0df8c3991927";
+    // let apiUrl = ` https://api.openweathermap.org/data/2.5/wetger?q=${city}appid=${apiKey}&units=metric`;
+    // axios.get(apiUrl).then(showWeather);
   }
 
   function updateCity(event) {
