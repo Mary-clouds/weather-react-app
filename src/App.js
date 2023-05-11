@@ -11,6 +11,7 @@ function App() {
           <WeatherSearch />
         </h2>
       </header>
+      <h3>Paris</h3>
     </div>
   );
 }
