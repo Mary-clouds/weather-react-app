@@ -7,7 +7,11 @@ export default function Footer() {
       <p>
         {" "}
         coded by Mary Nevermann{" "}
-        <a href=" " target="_blank" rel="noopener norefereer">
+        <a
+          href="https://github.com/Mary-clouds/weather-react-app "
+          target="_blank"
+          rel="noopener norefereer"
+        >
           open source on Github,
         </a>{" "}
         <a href=" " target="_blank" rel="noopener norefereer">
