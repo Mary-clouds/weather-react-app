@@ -27,11 +27,7 @@
   border: 1px solid #dadde1;
   border-radius: 10px;
 }
-.Footer {
-  max-width: 400px;
-  margin: 20px auto;
-  font-size: 18px;
-}
+
 .row {
   margin: 0 -5px;
   position: relative;
@@ -42,4 +38,7 @@ h1 {
 }
 body {
   background-color: darkslategrey;
+}
+ul {
+  list-style-type: none;
 }
