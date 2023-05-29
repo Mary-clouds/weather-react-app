@@ -22,12 +22,8 @@ function App() {
 
           <div class="row align-items-center">
             <div class="col-3">
-              <div className="clearfix weather-temperature">
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                  alt="sun"
-                  class="float-left img-fluid mx-auto"
-                />
+              
+               
                 <div className="float-left">
                   <strong>25</strong>
                   <span class="units">
