@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="Container">
-      <div className="App">
+      <div className="Weather-app">
         <header className="App-header">
           <div className="Weather">
             <h1>
@@ -15,30 +15,28 @@ function App() {
             </h1>
             <div className="Current-City">
               <h2>Berlin</h2>
-              //voir ici si je met ul ou 🛳
-              <ul className="float-left">
-                <li>Last updated: Monday 9 PM</li>
-                <li>Clear Sky</li>
-              </ul>
+
+              <li>Last updated: Monday 9 PM</li>
             </div>
 
             <div className="row">
-              <div className="col-3">
+              <div className="col">
                 <div className="clearfix weather-temperature">
                   <img
                     src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                     alt="sun"
                     class="float-left img-fluid mx-auto"
-                  />
-                  <div className="float-left">
-                    <strong>25</strong>
-                    <span class="units">
-                      <a href=" ">°C</a>|<a href=" ">°F</a>
-                    </span>
-                  </div>
+                  />{" "}
+                  <strong>25</strong>
+                  <span class="units">
+                    <a href=" ">°C</a>|<a href=" ">°F</a>
+                  </span>
                 </div>
+                <br />
+                <li>Clear Sky</li>
               </div>
-              <div className="col-3">
+
+              <div className="col-4">
                 <ul>
                   <li>
                     feels like <span>28°C</span>
@@ -48,12 +46,15 @@ function App() {
                 </ul>
               </div>
             </div>
+
             <br />
             <Forecast />
           </div>
-          <Footer />
         </header>
       </div>
+      <Footer />
     </div>
   );
 }
+
+export default App;
