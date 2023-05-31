@@ -1,0 +1,21 @@
+.column {
+  float: left;
+  padding: 0 10px;
+  width: 20%;
+}
+
+.row {
+  margin: 0 -5px;
+  position: relative;
+}
+.card {
+  position: relative;
+  top: 25px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+}
+.card-text {
+  text-align: center;
+}

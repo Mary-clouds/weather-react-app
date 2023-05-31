@@ -23,11 +23,11 @@ export default function Foreast() {
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="sun"
-            class="img-fluid mx-auto text-centrer"
+            className="img-fluid mx-auto text-centrer"
           />
           <div className="card-body text-center">
-            <h5 class="card-body text-center">Tuesday</h5>
-            <p class="card-text text-center">Sunny</p>
+            <h5 className="card-body text-center">Tuesday</h5>
+            <p className="card-text text-center">Sunny</p>
           </div>
         </div>
       </div>
@@ -37,11 +37,11 @@ export default function Foreast() {
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
             alt="Cloud"
-            class="img-fluid mx-auto text-centrer"
+            className="img-fluid mx-auto text-centrer"
           />
           <div className="card-body text-center">
-            <h5 class="card-body text-center">Wednesday</h5>
-            <p class="card-text text-center">Cloudy</p>
+            <h5 className="card-body text-center">Wednesday</h5>
+            <p className="card-text text-center">Cloudy</p>
           </div>
         </div>
       </div>
@@ -50,11 +50,11 @@ export default function Foreast() {
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/thunderstorms.png"
             alt="thunder"
-            class="img-fluid mx-auto text-centrer"
+            className="img-fluid mx-auto text-centrer"
           />
           <div className="card-body text-center">
-            <h5 class="card-body text-center">Thursday</h5>
-            <p class="card-text text-center">Thunderstorm</p>
+            <h5 className="card-body text-center">Thursday</h5>
+            <p className="card-text text-center">Thunderstorm</p>
           </div>
         </div>
       </div>
@@ -64,11 +64,11 @@ export default function Foreast() {
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/snow.png"
             alt="snow"
-            class="img-fluid mx-auto text-centrer"
+            className="img-fluid mx-auto text-centrer"
           />
           <div className="card-body text-center">
-            <h5 class="card-body text-center">Friday</h5>
-            <p class="card-text text-center">snow</p>
+            <h5 className="card-body text-center">Friday</h5>
+            <p className="card-text text-center">snow</p>
           </div>
         </div>
       </div>
