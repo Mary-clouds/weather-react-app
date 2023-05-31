@@ -16,7 +16,7 @@ function App() {
             <div className="Current-City">
               <h2>Berlin</h2>
 
-              <li>Last updated: Monday 9 PM</li>
+              <li>Last updated: Sunday 9 PM</li>
             </div>
 
             <div className="row">
@@ -36,7 +36,7 @@ function App() {
                 <li>Clear Sky</li>
               </div>
 
-              <div className="col-4">
+              <div className="col">
                 <ul>
                   <li>
                     feels like <span>28°C</span>

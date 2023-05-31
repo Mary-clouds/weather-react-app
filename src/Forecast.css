@@ -1,15 +1,11 @@
-.column {
-  float: left;
+.col-3 {
   padding: 0 10px;
   width: 20%;
+  display: inline;
 }
 
-.row {
-  margin: 0 -5px;
-  position: relative;
-}
-.card {
-  position: relative;
+.card-body-text,
+.col {
   top: 25px;
   margin: 20px auto;
   padding: 20px;

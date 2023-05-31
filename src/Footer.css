@@ -6,3 +6,12 @@
 footer {
   font-size: 14px !important;
 }
+a {
+  color: black;
+}
+
+a:hover {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  color: blueviolet;
+}

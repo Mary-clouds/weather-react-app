@@ -1,52 +1,28 @@
 .App {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: white;
   color: black;
 }
 
-.weatherApp {
-  display: flex;
+.Weather-app {
+  background-color: white;
   border-radius: 15px;
   max-width: 950px;
   margin: 50px auto;
   padding: 30px;
-  border: 1px solid #dadde1;
+  border: 1px solid darkslategrey;
   border-radius: 20px;
 }
 
 .row {
+  display: flex;
   margin: 0 -5px;
   position: relative;
 }
-.col-6 {
-  position: relative;
-  right: -550px;
-}
 
-#submit-button {
-  transition: all 200ms ease-in-out;
-}
-#submit-button:hover {
-  cursor: pointer;
-}
-#description {
-  text-align: left;
-  font-size: 32px;
-  font-weight: 400;
-  position: relative;
-  top: 40px;
-}
-
-#description::first-letter {
-  text-transform: capitalize;
-}
-
-h1 {
-  text-align: center;
-}
 body {
   background-color: darkslategrey;
 }
-ul {
+
+li {
   list-style-type: none;
 }
